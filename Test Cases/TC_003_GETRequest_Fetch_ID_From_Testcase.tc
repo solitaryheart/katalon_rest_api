@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_003_GETRequest_Fetch_ID_From_Testcase</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4ef86c58-ef67-424e-88c4-e8d3bacc0c70</testCaseGuid>
+   <variable>
+      <defaultValue>'cust8982771'</defaultValue>
+      <description></description>
+      <id>fd733de6-d48b-4c4e-ab7d-2558150586ef</id>
+      <masked>false</masked>
+      <name>CustID</name>
+   </variable>
+</TestCaseEntity>

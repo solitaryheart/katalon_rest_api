@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_006_PostRequest_FixedData</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0d63ca4e-281a-4082-8e85-65215299a915</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.customerID</defaultValue>
+      <description></description>
+      <id>aac076c6-689e-4ba4-b567-a729a033516a</id>
+      <masked>false</masked>
+      <name>CID</name>
+   </variable>
+</TestCaseEntity>

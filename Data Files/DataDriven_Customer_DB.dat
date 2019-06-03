@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Selection CustomerID's by using MYSQL query</description>
+   <name>DataDriven_Customer_DB</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>d520f3da-2c6e-4d0a-9832-80a3bbe70986</dataFileGUID>
+   <dataSourceUrl>jdbc:mysql://localhost:3306/myzone</dataSourceUrl>
+   <driver>DBData</driver>
+   <isInternalPath>false</isInternalPath>
+   <password>cm9vdA==</password>
+   <query>select * from customer where lastName ='meier'</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>root</user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

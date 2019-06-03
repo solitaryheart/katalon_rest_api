@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_012_DeleteRequest _DataDriven_Customer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>12ed6406-2edd-47e8-82bc-0716853dd62f</testCaseGuid>
+   <variable>
+      <defaultValue>'cust7903443'</defaultValue>
+      <description></description>
+      <id>c0674240-6310-4024-8831-0eba415f3306</id>
+      <masked>false</masked>
+      <name>CID</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-06-03T12:39:18</date>
+  <millis>1559558358516</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/DataDriven_DeleteCustomer</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">DataDriven_DeleteCustomer</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/DataDriven_DeleteCustomer</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:18</date>
+  <millis>1559558358528</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Matthias.Meier - DOPCMKG100.kps.kps-consulting.com</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Matthias.Meier - DOPCMKG100.kps.kps-consulting.com</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:18</date>
+  <millis>1559558358528</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:18</date>
+  <millis>1559558358528</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.10.40.135</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.10.40.135</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:18</date>
+  <millis>1559558358529</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.1.5.3</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.1.5.3</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:18</date>
+  <millis>1559558358530</millis>
+  <sequence>5</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>dbServerInfo = MySQL 5.7.18-log</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="dbServerInfo">MySQL 5.7.18-log</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:18</date>
+  <millis>1559558358683</millis>
+  <sequence>6</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC_012_DeleteRequest _DataDriven_Customer</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC_012_DeleteRequest _DataDriven_Customer</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TC_012_DeleteRequest _DataDriven_Customer</property>
+  <property name="source">C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Test Cases\\TC_012_DeleteRequest _DataDriven_Customer.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:18</date>
+  <millis>1559558358701</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CID = cust1217264</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:18</date>
+  <millis>1559558358952</millis>
+  <sequence>9</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Res = sendRequest(findTestObject(\&amp;quot;DeleteCustomerID\&amp;quot;, [\&amp;quot;customerID\&amp;quot;:CID]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360379</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Reports\\DataDriven_DeleteCustomer\\20190603_123917\\requests\\main\\0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">847f966a-ebd8-4985-af8d-5d27a95d063c</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360468</millis>
+  <sequence>14</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360468</millis>
+  <sequence>15</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Res = sendRequest(findTestObject(\&amp;quot;DeleteCustomerID\&amp;quot;, [\&amp;quot;customerID\&amp;quot;:CID]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360468</millis>
+  <sequence>16</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(Res, 204)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360478</millis>
+  <sequence>18</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360479</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(Res, 204)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360479</millis>
+  <sequence>20</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC_012_DeleteRequest _DataDriven_Customer</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360479</millis>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC_012_DeleteRequest _DataDriven_Customer</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360482</millis>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC_012_DeleteRequest _DataDriven_Customer</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC_012_DeleteRequest _DataDriven_Customer</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TC_012_DeleteRequest _DataDriven_Customer</property>
+  <property name="source">C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Test Cases\\TC_012_DeleteRequest _DataDriven_Customer.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360487</millis>
+  <sequence>24</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CID = cust1596318</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360489</millis>
+  <sequence>25</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Res = sendRequest(findTestObject(\&amp;quot;DeleteCustomerID\&amp;quot;, [\&amp;quot;customerID\&amp;quot;:CID]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360524</millis>
+  <sequence>29</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Reports\\DataDriven_DeleteCustomer\\20190603_123917\\requests\\main\\1.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">755630ae-28f2-4c44-b259-1b0acd09774e</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360526</millis>
+  <sequence>30</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360526</millis>
+  <sequence>31</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Res = sendRequest(findTestObject(\&amp;quot;DeleteCustomerID\&amp;quot;, [\&amp;quot;customerID\&amp;quot;:CID]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360527</millis>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(Res, 204)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360528</millis>
+  <sequence>34</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360528</millis>
+  <sequence>35</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(Res, 204)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360528</millis>
+  <sequence>36</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC_012_DeleteRequest _DataDriven_Customer</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360529</millis>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC_012_DeleteRequest _DataDriven_Customer</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360531</millis>
+  <sequence>38</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC_012_DeleteRequest _DataDriven_Customer</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC_012_DeleteRequest _DataDriven_Customer</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TC_012_DeleteRequest _DataDriven_Customer</property>
+  <property name="source">C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Test Cases\\TC_012_DeleteRequest _DataDriven_Customer.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360535</millis>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CID = cust2274681</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360538</millis>
+  <sequence>41</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Res = sendRequest(findTestObject(\&amp;quot;DeleteCustomerID\&amp;quot;, [\&amp;quot;customerID\&amp;quot;:CID]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360574</millis>
+  <sequence>45</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Reports\\DataDriven_DeleteCustomer\\20190603_123917\\requests\\main\\2.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">9a7b6a2e-756e-4f17-bcc4-5de0cc4889a4</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360576</millis>
+  <sequence>46</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360576</millis>
+  <sequence>47</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Res = sendRequest(findTestObject(\&amp;quot;DeleteCustomerID\&amp;quot;, [\&amp;quot;customerID\&amp;quot;:CID]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360576</millis>
+  <sequence>48</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(Res, 204)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360577</millis>
+  <sequence>50</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360578</millis>
+  <sequence>51</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(Res, 204)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360578</millis>
+  <sequence>52</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC_012_DeleteRequest _DataDriven_Customer</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360578</millis>
+  <sequence>53</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC_012_DeleteRequest _DataDriven_Customer</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360581</millis>
+  <sequence>54</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC_012_DeleteRequest _DataDriven_Customer</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC_012_DeleteRequest _DataDriven_Customer</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TC_012_DeleteRequest _DataDriven_Customer</property>
+  <property name="source">C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Test Cases\\TC_012_DeleteRequest _DataDriven_Customer.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360587</millis>
+  <sequence>56</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CID = cust4932833</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360588</millis>
+  <sequence>57</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Res = sendRequest(findTestObject(\&amp;quot;DeleteCustomerID\&amp;quot;, [\&amp;quot;customerID\&amp;quot;:CID]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360628</millis>
+  <sequence>61</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Reports\\DataDriven_DeleteCustomer\\20190603_123917\\requests\\main\\3.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">45c8990a-e2b8-4438-bca5-1d4b394c7384</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360629</millis>
+  <sequence>62</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360630</millis>
+  <sequence>63</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Res = sendRequest(findTestObject(\&amp;quot;DeleteCustomerID\&amp;quot;, [\&amp;quot;customerID\&amp;quot;:CID]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360630</millis>
+  <sequence>64</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(Res, 204)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360634</millis>
+  <sequence>66</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360634</millis>
+  <sequence>67</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(Res, 204)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360634</millis>
+  <sequence>68</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC_012_DeleteRequest _DataDriven_Customer</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360635</millis>
+  <sequence>69</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC_012_DeleteRequest _DataDriven_Customer</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360639</millis>
+  <sequence>70</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC_012_DeleteRequest _DataDriven_Customer</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC_012_DeleteRequest _DataDriven_Customer</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TC_012_DeleteRequest _DataDriven_Customer</property>
+  <property name="source">C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Test Cases\\TC_012_DeleteRequest _DataDriven_Customer.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360643</millis>
+  <sequence>72</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CID = cust5054936</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360644</millis>
+  <sequence>73</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Res = sendRequest(findTestObject(\&amp;quot;DeleteCustomerID\&amp;quot;, [\&amp;quot;customerID\&amp;quot;:CID]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360674</millis>
+  <sequence>77</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Reports\\DataDriven_DeleteCustomer\\20190603_123917\\requests\\main\\4.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">2b3e1955-da47-4106-9e01-a08c59a147e0</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360675</millis>
+  <sequence>78</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360675</millis>
+  <sequence>79</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Res = sendRequest(findTestObject(\&amp;quot;DeleteCustomerID\&amp;quot;, [\&amp;quot;customerID\&amp;quot;:CID]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360675</millis>
+  <sequence>80</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(Res, 204)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360677</millis>
+  <sequence>82</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360677</millis>
+  <sequence>83</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(Res, 204)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360677</millis>
+  <sequence>84</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC_012_DeleteRequest _DataDriven_Customer</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360677</millis>
+  <sequence>85</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC_012_DeleteRequest _DataDriven_Customer</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:39:20</date>
+  <millis>1559558360709</millis>
+  <sequence>86</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/DataDriven_DeleteCustomer</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_001_GetRequest_Validate_StatusCode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4434a2ef-b15e-4c65-829c-9c1ca1c11dd1</testCaseGuid>
+</TestCaseEntity>

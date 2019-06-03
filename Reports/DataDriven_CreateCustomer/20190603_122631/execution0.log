@@ -1,0 +1,1472 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-06-03T12:26:34</date>
+  <millis>1559557594065</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/DataDriven_CreateCustomer</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">DataDriven_CreateCustomer</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/DataDriven_CreateCustomer</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:34</date>
+  <millis>1559557594076</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Matthias.Meier - DOPCMKG100.kps.kps-consulting.com</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Matthias.Meier - DOPCMKG100.kps.kps-consulting.com</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:34</date>
+  <millis>1559557594077</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:34</date>
+  <millis>1559557594077</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.10.40.135</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.10.40.135</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:34</date>
+  <millis>1559557594078</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.1.5.3</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.1.5.3</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:34</date>
+  <millis>1559557594254</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC_010_PostRequest_DynamicData_Customer</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC_010_PostRequest_DynamicData_Customer</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TC_010_PostRequest_DynamicData_Customer</property>
+  <property name="source">C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Test Cases\\TC_010_PostRequest_DynamicData_Customer.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:34</date>
+  <millis>1559557594273</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_fName = gerd</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:34</date>
+  <millis>1559557594274</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_lName = Podolski</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:34</date>
+  <millis>1559557594274</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_phone = 10008</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:34</date>
+  <millis>1559557594274</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_email = lp10@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:34</date>
+  <millis>1559557594274</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_address = Parkstrasse 3</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:34</date>
+  <millis>1559557594275</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_city = Koeln</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:34</date>
+  <millis>1559557594275</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_state = NRW</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:34</date>
+  <millis>1559557594275</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_zip = 45000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:34</date>
+  <millis>1559557594276</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_country = Germany</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:34</date>
+  <millis>1559557594543</millis>
+  <sequence>16</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Response = sendRequest(findTestObject(\&amp;quot;POSTDataDrivenCustomer\&amp;quot;, [\&amp;quot;firstName\&amp;quot;:tc_fName, \&amp;quot;lastName\&amp;quot;:tc_lName, \&amp;quot;phone\&amp;quot;:tc_phone, \&amp;quot;email\&amp;quot;:tc_email, \&amp;quot;address\&amp;quot;:tc_address, \&amp;quot;city\&amp;quot;:tc_city, \&amp;quot;state\&amp;quot;:tc_state, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596036</millis>
+  <sequence>20</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Reports\\DataDriven_CreateCustomer\\20190603_122631\\requests\\main\\0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">987058c6-673e-4979-8c7f-f2ae40939b7f</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596117</millis>
+  <sequence>21</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596117</millis>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Response = sendRequest(findTestObject(\&amp;quot;POSTDataDrivenCustomer\&amp;quot;, [\&amp;quot;firstName\&amp;quot;:tc_fName, \&amp;quot;lastName\&amp;quot;:tc_lName, \&amp;quot;phone\&amp;quot;:tc_phone, \&amp;quot;email\&amp;quot;:tc_email, \&amp;quot;address\&amp;quot;:tc_address, \&amp;quot;city\&amp;quot;:tc_city, \&amp;quot;state\&amp;quot;:tc_state, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596118</millis>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(Response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596125</millis>
+  <sequence>24</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(Response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596126</millis>
+  <sequence>25</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(Response, 201)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596143</millis>
+  <sequence>27</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596144</millis>
+  <sequence>28</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(Response, 201)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596144</millis>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPropertyValue(Response, \&amp;quot;email\&amp;quot;, tc_email)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596188</millis>
+  <sequence>31</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596188</millis>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPropertyValue(Response, \&amp;quot;email\&amp;quot;, tc_email)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596188</millis>
+  <sequence>33</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC_010_PostRequest_DynamicData_Customer</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596189</millis>
+  <sequence>34</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC_010_PostRequest_DynamicData_Customer</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596192</millis>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC_010_PostRequest_DynamicData_Customer</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC_010_PostRequest_DynamicData_Customer</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TC_010_PostRequest_DynamicData_Customer</property>
+  <property name="source">C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Test Cases\\TC_010_PostRequest_DynamicData_Customer.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596196</millis>
+  <sequence>37</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_fName = gerd</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596196</millis>
+  <sequence>38</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_lName = Podolski</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596197</millis>
+  <sequence>39</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_phone = 10009</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596197</millis>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_email = lp11@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596197</millis>
+  <sequence>41</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_address = Parkstrasse 3</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596198</millis>
+  <sequence>42</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_city = Koeln</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596198</millis>
+  <sequence>43</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_state = NRW</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596198</millis>
+  <sequence>44</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_zip = 45000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596198</millis>
+  <sequence>45</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_country = Germany</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596200</millis>
+  <sequence>46</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Response = sendRequest(findTestObject(\&amp;quot;POSTDataDrivenCustomer\&amp;quot;, [\&amp;quot;firstName\&amp;quot;:tc_fName, \&amp;quot;lastName\&amp;quot;:tc_lName, \&amp;quot;phone\&amp;quot;:tc_phone, \&amp;quot;email\&amp;quot;:tc_email, \&amp;quot;address\&amp;quot;:tc_address, \&amp;quot;city\&amp;quot;:tc_city, \&amp;quot;state\&amp;quot;:tc_state, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596240</millis>
+  <sequence>50</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Reports\\DataDriven_CreateCustomer\\20190603_122631\\requests\\main\\1.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">56e1a3af-74f0-4b41-941d-2c40deb1ff39</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596242</millis>
+  <sequence>51</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596243</millis>
+  <sequence>52</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Response = sendRequest(findTestObject(\&amp;quot;POSTDataDrivenCustomer\&amp;quot;, [\&amp;quot;firstName\&amp;quot;:tc_fName, \&amp;quot;lastName\&amp;quot;:tc_lName, \&amp;quot;phone\&amp;quot;:tc_phone, \&amp;quot;email\&amp;quot;:tc_email, \&amp;quot;address\&amp;quot;:tc_address, \&amp;quot;city\&amp;quot;:tc_city, \&amp;quot;state\&amp;quot;:tc_state, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596243</millis>
+  <sequence>53</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(Response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596243</millis>
+  <sequence>54</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(Response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596244</millis>
+  <sequence>55</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(Response, 201)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596245</millis>
+  <sequence>57</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596245</millis>
+  <sequence>58</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(Response, 201)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596246</millis>
+  <sequence>59</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPropertyValue(Response, \&amp;quot;email\&amp;quot;, tc_email)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596259</millis>
+  <sequence>61</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596260</millis>
+  <sequence>62</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPropertyValue(Response, \&amp;quot;email\&amp;quot;, tc_email)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596260</millis>
+  <sequence>63</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC_010_PostRequest_DynamicData_Customer</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596260</millis>
+  <sequence>64</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC_010_PostRequest_DynamicData_Customer</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596263</millis>
+  <sequence>65</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC_010_PostRequest_DynamicData_Customer</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC_010_PostRequest_DynamicData_Customer</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TC_010_PostRequest_DynamicData_Customer</property>
+  <property name="source">C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Test Cases\\TC_010_PostRequest_DynamicData_Customer.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596268</millis>
+  <sequence>67</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_fName = gerd</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596268</millis>
+  <sequence>68</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_lName = Podolski</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596269</millis>
+  <sequence>69</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_phone = 10010</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596269</millis>
+  <sequence>70</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_email = lp12@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596270</millis>
+  <sequence>71</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_address = Parkstrasse 3</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596270</millis>
+  <sequence>72</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_city = Koeln</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596270</millis>
+  <sequence>73</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_state = NRW</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596270</millis>
+  <sequence>74</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_zip = 45000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596271</millis>
+  <sequence>75</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_country = Germany</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596273</millis>
+  <sequence>76</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Response = sendRequest(findTestObject(\&amp;quot;POSTDataDrivenCustomer\&amp;quot;, [\&amp;quot;firstName\&amp;quot;:tc_fName, \&amp;quot;lastName\&amp;quot;:tc_lName, \&amp;quot;phone\&amp;quot;:tc_phone, \&amp;quot;email\&amp;quot;:tc_email, \&amp;quot;address\&amp;quot;:tc_address, \&amp;quot;city\&amp;quot;:tc_city, \&amp;quot;state\&amp;quot;:tc_state, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596306</millis>
+  <sequence>80</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Reports\\DataDriven_CreateCustomer\\20190603_122631\\requests\\main\\2.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">e5dc8b3c-20b4-452c-b920-146746a66acc</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596307</millis>
+  <sequence>81</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596307</millis>
+  <sequence>82</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Response = sendRequest(findTestObject(\&amp;quot;POSTDataDrivenCustomer\&amp;quot;, [\&amp;quot;firstName\&amp;quot;:tc_fName, \&amp;quot;lastName\&amp;quot;:tc_lName, \&amp;quot;phone\&amp;quot;:tc_phone, \&amp;quot;email\&amp;quot;:tc_email, \&amp;quot;address\&amp;quot;:tc_address, \&amp;quot;city\&amp;quot;:tc_city, \&amp;quot;state\&amp;quot;:tc_state, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596308</millis>
+  <sequence>83</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(Response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596308</millis>
+  <sequence>84</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(Response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596308</millis>
+  <sequence>85</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(Response, 201)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596309</millis>
+  <sequence>87</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596309</millis>
+  <sequence>88</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(Response, 201)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596310</millis>
+  <sequence>89</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPropertyValue(Response, \&amp;quot;email\&amp;quot;, tc_email)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596326</millis>
+  <sequence>91</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596326</millis>
+  <sequence>92</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPropertyValue(Response, \&amp;quot;email\&amp;quot;, tc_email)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596327</millis>
+  <sequence>93</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC_010_PostRequest_DynamicData_Customer</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596327</millis>
+  <sequence>94</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC_010_PostRequest_DynamicData_Customer</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596329</millis>
+  <sequence>95</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC_010_PostRequest_DynamicData_Customer</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC_010_PostRequest_DynamicData_Customer</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TC_010_PostRequest_DynamicData_Customer</property>
+  <property name="source">C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Test Cases\\TC_010_PostRequest_DynamicData_Customer.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596334</millis>
+  <sequence>97</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_fName = gerd</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596335</millis>
+  <sequence>98</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_lName = Podolski</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596336</millis>
+  <sequence>99</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_phone = 10011</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596336</millis>
+  <sequence>100</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_email = lp13@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596336</millis>
+  <sequence>101</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_address = Parkstrasse 3</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596337</millis>
+  <sequence>102</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_city = Koeln</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596337</millis>
+  <sequence>103</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_state = NRW</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596337</millis>
+  <sequence>104</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_zip = 45000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596338</millis>
+  <sequence>105</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_country = Germany</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596340</millis>
+  <sequence>106</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Response = sendRequest(findTestObject(\&amp;quot;POSTDataDrivenCustomer\&amp;quot;, [\&amp;quot;firstName\&amp;quot;:tc_fName, \&amp;quot;lastName\&amp;quot;:tc_lName, \&amp;quot;phone\&amp;quot;:tc_phone, \&amp;quot;email\&amp;quot;:tc_email, \&amp;quot;address\&amp;quot;:tc_address, \&amp;quot;city\&amp;quot;:tc_city, \&amp;quot;state\&amp;quot;:tc_state, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596383</millis>
+  <sequence>110</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Reports\\DataDriven_CreateCustomer\\20190603_122631\\requests\\main\\3.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">1d3785ae-ece6-43d0-8dab-c62806e045bd</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596385</millis>
+  <sequence>111</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596386</millis>
+  <sequence>112</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Response = sendRequest(findTestObject(\&amp;quot;POSTDataDrivenCustomer\&amp;quot;, [\&amp;quot;firstName\&amp;quot;:tc_fName, \&amp;quot;lastName\&amp;quot;:tc_lName, \&amp;quot;phone\&amp;quot;:tc_phone, \&amp;quot;email\&amp;quot;:tc_email, \&amp;quot;address\&amp;quot;:tc_address, \&amp;quot;city\&amp;quot;:tc_city, \&amp;quot;state\&amp;quot;:tc_state, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596386</millis>
+  <sequence>113</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(Response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596387</millis>
+  <sequence>114</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(Response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596388</millis>
+  <sequence>115</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(Response, 201)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596391</millis>
+  <sequence>117</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596392</millis>
+  <sequence>118</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(Response, 201)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596392</millis>
+  <sequence>119</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPropertyValue(Response, \&amp;quot;email\&amp;quot;, tc_email)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596407</millis>
+  <sequence>121</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596407</millis>
+  <sequence>122</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPropertyValue(Response, \&amp;quot;email\&amp;quot;, tc_email)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596407</millis>
+  <sequence>123</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC_010_PostRequest_DynamicData_Customer</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596407</millis>
+  <sequence>124</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC_010_PostRequest_DynamicData_Customer</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596411</millis>
+  <sequence>125</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC_010_PostRequest_DynamicData_Customer</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC_010_PostRequest_DynamicData_Customer</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TC_010_PostRequest_DynamicData_Customer</property>
+  <property name="source">C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Test Cases\\TC_010_PostRequest_DynamicData_Customer.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596417</millis>
+  <sequence>127</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_fName = gerd</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596417</millis>
+  <sequence>128</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_lName = Podolski</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596417</millis>
+  <sequence>129</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_phone = 10012</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596417</millis>
+  <sequence>130</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_email = lp14@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596418</millis>
+  <sequence>131</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_address = Parkstrasse 3</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596418</millis>
+  <sequence>132</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_city = Koeln</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596418</millis>
+  <sequence>133</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_state = NRW</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596418</millis>
+  <sequence>134</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_zip = 45000</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596418</millis>
+  <sequence>135</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_country = Germany</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596420</millis>
+  <sequence>136</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Response = sendRequest(findTestObject(\&amp;quot;POSTDataDrivenCustomer\&amp;quot;, [\&amp;quot;firstName\&amp;quot;:tc_fName, \&amp;quot;lastName\&amp;quot;:tc_lName, \&amp;quot;phone\&amp;quot;:tc_phone, \&amp;quot;email\&amp;quot;:tc_email, \&amp;quot;address\&amp;quot;:tc_address, \&amp;quot;city\&amp;quot;:tc_city, \&amp;quot;state\&amp;quot;:tc_state, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596461</millis>
+  <sequence>140</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Reports\\DataDriven_CreateCustomer\\20190603_122631\\requests\\main\\4.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">fcacdd0e-f916-4f2f-a4f2-3592f98c206b</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596463</millis>
+  <sequence>141</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596464</millis>
+  <sequence>142</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Response = sendRequest(findTestObject(\&amp;quot;POSTDataDrivenCustomer\&amp;quot;, [\&amp;quot;firstName\&amp;quot;:tc_fName, \&amp;quot;lastName\&amp;quot;:tc_lName, \&amp;quot;phone\&amp;quot;:tc_phone, \&amp;quot;email\&amp;quot;:tc_email, \&amp;quot;address\&amp;quot;:tc_address, \&amp;quot;city\&amp;quot;:tc_city, \&amp;quot;state\&amp;quot;:tc_state, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596464</millis>
+  <sequence>143</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(Response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596464</millis>
+  <sequence>144</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(Response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596465</millis>
+  <sequence>145</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(Response, 201)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596466</millis>
+  <sequence>147</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596467</millis>
+  <sequence>148</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(Response, 201)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596467</millis>
+  <sequence>149</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPropertyValue(Response, \&amp;quot;email\&amp;quot;, tc_email)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596482</millis>
+  <sequence>151</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596483</millis>
+  <sequence>152</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPropertyValue(Response, \&amp;quot;email\&amp;quot;, tc_email)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596483</millis>
+  <sequence>153</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC_010_PostRequest_DynamicData_Customer</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596483</millis>
+  <sequence>154</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC_010_PostRequest_DynamicData_Customer</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T12:26:36</date>
+  <millis>1559557596518</millis>
+  <sequence>155</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/DataDriven_CreateCustomer</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

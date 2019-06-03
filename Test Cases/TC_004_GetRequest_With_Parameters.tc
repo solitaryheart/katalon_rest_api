@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_004_GetRequest_With_Parameters</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4139d0d4-3957-4676-81e6-985c554e0bb9</testCaseGuid>
+   <variable>
+      <defaultValue>'larissa'</defaultValue>
+      <description></description>
+      <id>f74f14d4-ca65-4b8c-a097-13c630ac7dea</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'feierabend'</defaultValue>
+      <description></description>
+      <id>77649d64-d031-4eff-911a-4fc6929f0516</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+</TestCaseEntity>

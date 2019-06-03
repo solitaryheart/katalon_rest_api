@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Input Date to create customer</description>
+   <name>DataDriven_CreateCustomer</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>a63330ba-bfc4-4990-a641-440646d2a8d4</dataFileGUID>
+   <dataSourceUrl>../../../../udemy/Katalon_Studio/13_Rest_API_Data_Driven_Testing/2_Post_Request_with_multiple_data/TestData_CreateCustomer_Excel.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>true</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Tabelle1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
