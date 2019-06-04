@@ -13,9 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Response = WS.sendRequest(findTestObject('POSTDataDrivenCustomer', [('firstName') : tc_fName, ('lastName') : tc_lName, ('phone') : tc_phone
-            , ('email') : tc_email, ('address') : tc_address, ('city') : tc_city, ('state') : tc_state, ('zipcode') : tc_zip
-            , ('country') : tc_country]))
+res_post_customer = WS.sendRequest(findTestObject('AddCustomerDynamic', [('firstName') : tc_fName, ('lastName') : tc_lName
+            , ('phone') : tc_phone, ('email') : tc_phone, ('address') : tc_address, ('city') : tc_city, ('state') : tc_state
+            , ('zipcode') : tc_zip, ('country') : tc_country]))
 
 println(Response.getResponseText())
 

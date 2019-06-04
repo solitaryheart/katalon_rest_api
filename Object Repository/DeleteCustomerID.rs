@@ -23,7 +23,7 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
    <variables>
-      <defaultValue>'cust2108056'</defaultValue>
+      <defaultValue>'cust2488340'</defaultValue>
       <description></description>
       <id>d7db9f00-953e-4b07-a258-22585fbbb122</id>
       <masked>false</masked>

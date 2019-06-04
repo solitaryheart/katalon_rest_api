@@ -19,7 +19,7 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
    <variables>
-      <defaultValue>GlobalVariable.customerID</defaultValue>
+      <defaultValue>'cust5158633'</defaultValue>
       <description></description>
       <id>322fbce8-ca7c-436a-b19a-b6139161652a</id>
       <masked>false</masked>
