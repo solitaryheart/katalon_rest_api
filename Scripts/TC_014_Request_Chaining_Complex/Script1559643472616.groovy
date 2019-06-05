@@ -29,5 +29,31 @@ fetched_CID = jsonResponse.customerID
 
 println(fetched_CID)
 
-Res_Delete_Customer = WS.sendRequest(findTestObject('DeleteCustomerID', [('customerID') : fetched_CID]))
+Res_Get_Customer = WS.sendRequest(findTestObject('GetCustomerDynamicID', [('customerID') : fetched_CID, ('endpoint') : GlobalVariable.endpoint]))
+
+WS.verifyElementPropertyValue(Res_Get_Customer, 'customerID', fetched_CID)
+
+Res_Create_Order = WS.sendRequest(findTestObject('CreateOrder', [('customerID') : fetched_CID]))
+
+def jsonSOrder = new JsonSlurper()
+
+def jsonResponseOrder = jsonSOrder.parseText(Res_Create_Order.getResponseText())
+
+fetchedORDERID = jsonResponseOrder.orderID
+
+println(fetchedORDERID)
+
+WS.verifyElementPropertyValue(Res_Create_Order, 'orderStatus', 'Order Created')
+
+Res_Get_Order = WS.sendRequest(findTestObject('GetOrder', [('customerID') : fetched_CID, ('orderID') : fetched_ORDERID]))
+
+println(Res_Get_Order.getResponseText())
+
+def jsonS3 = new JsonSlurper()
+
+def jsonResponse3 = jsonS3.parseText(Res_Get_Order.getResponseText())
+
+println(jsonResponse3.orderID)
+
+WS.verifyElementPropertyValue(findTestObject(null), '', null)
 
