@@ -44,14 +44,14 @@
       <name>lastName</name>
    </variables>
    <variables>
-      <defaultValue>10001</defaultValue>
+      <defaultValue>10002</defaultValue>
       <description></description>
       <id>32aa17ae-f46a-45b6-bb49-61fb1d5511db</id>
       <masked>false</masked>
       <name>phone</name>
    </variables>
    <variables>
-      <defaultValue>'lp05@kps.com'</defaultValue>
+      <defaultValue>'lp06@kps.com'</defaultValue>
       <description></description>
       <id>6ee3a2a0-0414-446c-b61f-909f321263b8</id>
       <masked>false</masked>

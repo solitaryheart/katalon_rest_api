@@ -30,28 +30,28 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
    <variables>
-      <defaultValue>'Lucas'</defaultValue>
+      <defaultValue>'mm300'</defaultValue>
       <description></description>
       <id>c47287c6-3cc7-4ad6-bdf6-77b14562bb30</id>
       <masked>false</masked>
       <name>firstName</name>
    </variables>
    <variables>
-      <defaultValue>'Podolski'</defaultValue>
+      <defaultValue>'mm300'</defaultValue>
       <description></description>
       <id>ee3daaa0-eb0f-47a8-bece-145f58c72810</id>
       <masked>false</masked>
       <name>lastName</name>
    </variables>
    <variables>
-      <defaultValue>5000</defaultValue>
+      <defaultValue>3800</defaultValue>
       <description></description>
       <id>32aa17ae-f46a-45b6-bb49-61fb1d5511db</id>
       <masked>false</masked>
       <name>phone</name>
    </variables>
    <variables>
-      <defaultValue>'kp01@kps.com'</defaultValue>
+      <defaultValue>'m380@kps.com'</defaultValue>
       <description></description>
       <id>6ee3a2a0-0414-446c-b61f-909f321263b8</id>
       <masked>false</masked>

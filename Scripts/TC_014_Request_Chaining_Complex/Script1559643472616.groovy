@@ -14,9 +14,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import groovy.json.JsonSlurper as JsonSlurper
 
-Res_Post_Customer = WS.sendRequest(findTestObject('POSTDataDrivenCustomer', [('firstName') : tc_fName, ('lastName') : tc_lName
-            , ('phone') : tc_phone, ('email') : tc_email, ('address') : tc_address, ('city') : tc_city, ('state') : tc_state
-            , ('zipcode') : tc_zip, ('country') : tc_country]))
+Res_Post_Customer = WS.sendRequest(findTestObject('POSTDataDrivenCustomer', [('firstName') : 'gerd', ('lastName') : 'Podolski'
+            , ('phone') : 10006, ('email') : 'lp10@kps.com', ('address') : 'Parkstrasse5', ('city') : 'Koeln', ('state') : 'NRW'
+            , ('zipcode') : 45000, ('country') : 'Germany']))
 
 //println(Res_Post_Customer.getResponseText())
 def jsonS = new JsonSlurper()
@@ -39,9 +39,15 @@ def jsonSOrder = new JsonSlurper()
 
 def jsonResponseOrder = jsonSOrder.parseText(Res_Create_Order.getResponseText())
 
+print(jsonResponseOrder)
+
 fetchedORDERID = jsonResponseOrder.orderID
 
+GlobalVariable.OrderID = jsonResponseOrder.orderID
+
 println(fetchedORDERID)
+
+print(GlobalVariable.OrderID)
 
 WS.verifyElementPropertyValue(Res_Create_Order, 'orderStatus', 'Order Created')
 
@@ -49,11 +55,22 @@ Res_Get_Order = WS.sendRequest(findTestObject('GetOrder', [('customerID') : fetc
 
 println(Res_Get_Order.getResponseText())
 
-def jsonS3 = new JsonSlurper()
+WS.verifyResponseStatusCode(Res_Get_Order, 200)
 
-def jsonResponse3 = jsonS3.parseText(Res_Get_Order.getResponseText())
+println('Before sending request' + fetchedORDERID)
 
-println(jsonResponse3.orderID)
+4.times({ 
+        Res_Create_Product = WS.sendRequest(findTestObject('CreateProduct', [('myorderID') : GlobalVariable.OrderID, ('customerID') : fetched_CID
+                    , ('productName') : 'G30DrivingBelt', ('cost') : 250, ('trackingID') : 'ID-0-16']))
 
-WS.verifyElementPropertyValue(findTestObject(null), '', null)
+        WS.verifyResponseStatusCode(Res_Create_Product, 201)
+    })
+
+Res_Get_Customer_Products = WS.sendRequest(findTestObject('GetCustomerDynamicID', [('customerID') : fetched_CID, ('endpoint') : GlobalVariable.endpoint]))
+
+WS.verifyElementsCount(Res_Get_Customer_Products, 'orders[0].products', 4)
+
+Res_Delete_Customer = WS.sendRequest(findTestObject('DeleteCustomerID', [('customerID') : fetched_CID]))
+
+WS.verifyResponseStatusCode(Res_Delete_Customer, 204)
 
