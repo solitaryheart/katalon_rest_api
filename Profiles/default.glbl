@@ -14,4 +14,9 @@
       <initValue>''</initValue>
       <name>customerID</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>OrderID</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

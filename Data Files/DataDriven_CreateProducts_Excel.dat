@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>DataDriven_CreateProducts_Excel</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>3b10c649-441f-426a-9553-87675997a805</dataFileGUID>
+   <dataSourceUrl>C:\udemy\udemy_doku\Katalon_Studio\13_Rest_API_Data_Driven_Testing\3_Request_Chaining\Testdata_CreateProducts.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Tabelle1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

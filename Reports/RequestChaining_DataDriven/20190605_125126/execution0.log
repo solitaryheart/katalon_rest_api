@@ -1,0 +1,2166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-06-05T12:51:27</date>
+  <millis>1559731887893</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/RequestChaining_DataDriven</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">RequestChaining_DataDriven</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/RequestChaining_DataDriven</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:27</date>
+  <millis>1559731887907</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Matthias.Meier - DOPCMKG100.kps.kps-consulting.com</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Matthias.Meier - DOPCMKG100.kps.kps-consulting.com</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:27</date>
+  <millis>1559731887907</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:27</date>
+  <millis>1559731887908</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.10.40.135</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.10.40.135</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:27</date>
+  <millis>1559731887908</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.1.5.3</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.1.5.3</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:28</date>
+  <millis>1559731888091</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC_014_Request_Chaining_Complex</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC_014_Request_Chaining_Complex</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TC_014_Request_Chaining_Complex</property>
+  <property name="source">C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Test Cases\\TC_014_Request_Chaining_Complex.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:28</date>
+  <millis>1559731888161</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_fName = heinz</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:28</date>
+  <millis>1559731888168</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_lName = stimpel</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:28</date>
+  <millis>1559731888176</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_phone = 2051</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:28</date>
+  <millis>1559731888183</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_email = stimpel51@ais.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:28</date>
+  <millis>1559731888189</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_address = karlsweg3</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:28</date>
+  <millis>1559731888195</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_city = luenen</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:28</date>
+  <millis>1559731888201</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_state = NRW</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:28</date>
+  <millis>1559731888208</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_zip = 44369</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:28</date>
+  <millis>1559731888215</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_country = Germany</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:28</date>
+  <millis>1559731888224</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) fetched_CID = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:28</date>
+  <millis>1559731888231</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) fetched_ORDERID = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:28</date>
+  <millis>1559731888231</millis>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_productName = G20DrivingBelt</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:28</date>
+  <millis>1559731888232</millis>
+  <sequence>19</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_cost = 200</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:28</date>
+  <millis>1559731888232</millis>
+  <sequence>20</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_tracking_ID = ID-0-10</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:28</date>
+  <millis>1559731888629</millis>
+  <sequence>21</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Res_Post_Customer = sendRequest(findTestObject(\&amp;quot;POSTDataDrivenCustomer\&amp;quot;, [\&amp;quot;firstName\&amp;quot;:tc_fName, \&amp;quot;lastName\&amp;quot;:tc_lName, \&amp;quot;phone\&amp;quot;:tc_phone, \&amp;quot;email\&amp;quot;:tc_email, \&amp;quot;address\&amp;quot;:tc_address, \&amp;quot;city\&amp;quot;:tc_city, \&amp;quot;state\&amp;quot;:tc_state, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890124</millis>
+  <sequence>25</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Reports\\RequestChaining_DataDriven\\20190605_125126\\requests\\main\\0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">5031a48c-4b74-4b4e-8bfa-a01d019c137e</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890196</millis>
+  <sequence>26</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890196</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Res_Post_Customer = sendRequest(findTestObject(\&amp;quot;POSTDataDrivenCustomer\&amp;quot;, [\&amp;quot;firstName\&amp;quot;:tc_fName, \&amp;quot;lastName\&amp;quot;:tc_lName, \&amp;quot;phone\&amp;quot;:tc_phone, \&amp;quot;email\&amp;quot;:tc_email, \&amp;quot;address\&amp;quot;:tc_address, \&amp;quot;city\&amp;quot;:tc_city, \&amp;quot;state\&amp;quot;:tc_state, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890197</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : jsonS = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890201</millis>
+  <sequence>29</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : jsonS = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890202</millis>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : jsonResponse = jsonS.parseText(Res_Post_Customer.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890214</millis>
+  <sequence>31</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : jsonResponse = jsonS.parseText(Res_Post_Customer.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890214</millis>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(customerID)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890221</millis>
+  <sequence>33</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(customerID)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890221</millis>
+  <sequence>34</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : fetched_CID = customerID</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890222</millis>
+  <sequence>35</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : fetched_CID = customerID</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890222</millis>
+  <sequence>36</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(fetched_CID)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890223</millis>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(fetched_CID)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890223</millis>
+  <sequence>38</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Res_Get_Customer = sendRequest(findTestObject(\&amp;quot;GetCustomerDynamicID\&amp;quot;, [\&amp;quot;customerID\&amp;quot;:fetched_CID, \&amp;quot;endpoint\&amp;quot;:endpoint]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890315</millis>
+  <sequence>41</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Reports\\RequestChaining_DataDriven\\20190605_125126\\requests\\main\\1.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">7e3082af-fdd7-47fd-ad40-7711587489ad</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890317</millis>
+  <sequence>42</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890318</millis>
+  <sequence>43</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Res_Get_Customer = sendRequest(findTestObject(\&amp;quot;GetCustomerDynamicID\&amp;quot;, [\&amp;quot;customerID\&amp;quot;:fetched_CID, \&amp;quot;endpoint\&amp;quot;:endpoint]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890318</millis>
+  <sequence>44</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPropertyValue(Res_Get_Customer, \&amp;quot;customerID\&amp;quot;, fetched_CID)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890338</millis>
+  <sequence>46</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890339</millis>
+  <sequence>47</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPropertyValue(Res_Get_Customer, \&amp;quot;customerID\&amp;quot;, fetched_CID)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890340</millis>
+  <sequence>48</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Res_Create_Order = sendRequest(findTestObject(\&amp;quot;CreateOrder\&amp;quot;, [\&amp;quot;customerID\&amp;quot;:fetched_CID]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890378</millis>
+  <sequence>51</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Reports\\RequestChaining_DataDriven\\20190605_125126\\requests\\main\\2.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">29c7a3cb-629e-4bcf-a1c6-5115979213a9</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890379</millis>
+  <sequence>52</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890380</millis>
+  <sequence>53</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Res_Create_Order = sendRequest(findTestObject(\&amp;quot;CreateOrder\&amp;quot;, [\&amp;quot;customerID\&amp;quot;:fetched_CID]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890380</millis>
+  <sequence>54</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : jsonSOrder = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890380</millis>
+  <sequence>55</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : jsonSOrder = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890380</millis>
+  <sequence>56</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : jsonResponseOrder = jsonSOrder.parseText(Res_Create_Order.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890381</millis>
+  <sequence>57</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : jsonResponseOrder = jsonSOrder.parseText(Res_Create_Order.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890381</millis>
+  <sequence>58</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : print(jsonResponseOrder)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890383</millis>
+  <sequence>59</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : print(jsonResponseOrder)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890383</millis>
+  <sequence>60</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : fetchedORDERID = orderID</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890384</millis>
+  <sequence>61</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : fetchedORDERID = orderID</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890384</millis>
+  <sequence>62</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : OrderID = orderID</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890386</millis>
+  <sequence>63</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : OrderID = orderID</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890386</millis>
+  <sequence>64</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(fetchedORDERID)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890388</millis>
+  <sequence>65</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(fetchedORDERID)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890389</millis>
+  <sequence>66</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : print(OrderID)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890390</millis>
+  <sequence>67</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : print(OrderID)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890391</millis>
+  <sequence>68</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPropertyValue(Res_Create_Order, \&amp;quot;orderStatus\&amp;quot;, \&amp;quot;Order Created\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890406</millis>
+  <sequence>70</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890406</millis>
+  <sequence>71</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPropertyValue(Res_Create_Order, \&amp;quot;orderStatus\&amp;quot;, \&amp;quot;Order Created\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890406</millis>
+  <sequence>72</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Res_Get_Order = sendRequest(findTestObject(\&amp;quot;GetOrder\&amp;quot;, [\&amp;quot;customerID\&amp;quot;:fetched_CID, \&amp;quot;orderID\&amp;quot;:fetched_ORDERID]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890454</millis>
+  <sequence>75</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Reports\\RequestChaining_DataDriven\\20190605_125126\\requests\\main\\3.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">be6fa3f7-7b85-4116-b688-8906a44b70c9</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890457</millis>
+  <sequence>76</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890458</millis>
+  <sequence>77</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Res_Get_Order = sendRequest(findTestObject(\&amp;quot;GetOrder\&amp;quot;, [\&amp;quot;customerID\&amp;quot;:fetched_CID, \&amp;quot;orderID\&amp;quot;:fetched_ORDERID]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890458</millis>
+  <sequence>78</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(Res_Get_Order.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">56</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890459</millis>
+  <sequence>79</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(Res_Get_Order.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890459</millis>
+  <sequence>80</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(Res_Get_Order, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">58</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890470</millis>
+  <sequence>82</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890470</millis>
+  <sequence>83</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(Res_Get_Order, 200)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890470</millis>
+  <sequence>84</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;Before sending request\&amp;quot; + fetchedORDERID)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">60</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890471</millis>
+  <sequence>85</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;Before sending request\&amp;quot; + fetchedORDERID)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890471</millis>
+  <sequence>86</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Res_Create_Product = sendRequest(findTestObject(\&amp;quot;CreateProduct\&amp;quot;, [\&amp;quot;myorderID\&amp;quot;:OrderID, \&amp;quot;customerID\&amp;quot;:fetched_CID, \&amp;quot;productName\&amp;quot;:\&amp;quot;G30DrivingBelt\&amp;quot;, \&amp;quot;cost\&amp;quot;:250, \&amp;quot;trackingID\&amp;quot;:\&amp;quot;ID-0-16\&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">62</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890539</millis>
+  <sequence>89</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Reports\\RequestChaining_DataDriven\\20190605_125126\\requests\\main\\4.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">3f83aa6f-0887-4167-8f68-3e487276a432</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890540</millis>
+  <sequence>90</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890541</millis>
+  <sequence>91</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Res_Create_Product = sendRequest(findTestObject(\&amp;quot;CreateProduct\&amp;quot;, [\&amp;quot;myorderID\&amp;quot;:OrderID, \&amp;quot;customerID\&amp;quot;:fetched_CID, \&amp;quot;productName\&amp;quot;:\&amp;quot;G30DrivingBelt\&amp;quot;, \&amp;quot;cost\&amp;quot;:250, \&amp;quot;trackingID\&amp;quot;:\&amp;quot;ID-0-16\&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890541</millis>
+  <sequence>92</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(Res_Create_Product, 201)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">65</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890543</millis>
+  <sequence>94</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890543</millis>
+  <sequence>95</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(Res_Create_Product, 201)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890543</millis>
+  <sequence>96</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC_014_Request_Chaining_Complex</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890544</millis>
+  <sequence>97</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC_014_Request_Chaining_Complex</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890547</millis>
+  <sequence>98</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC_014_Request_Chaining_Complex</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC_014_Request_Chaining_Complex</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TC_014_Request_Chaining_Complex</property>
+  <property name="source">C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Test Cases\\TC_014_Request_Chaining_Complex.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890564</millis>
+  <sequence>100</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_fName = heinz</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890572</millis>
+  <sequence>101</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_lName = stimpel</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890580</millis>
+  <sequence>102</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_phone = 2051</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890590</millis>
+  <sequence>103</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_email = stimpel51@ais.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890597</millis>
+  <sequence>104</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_address = karlsweg3</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890604</millis>
+  <sequence>105</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_city = luenen</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890610</millis>
+  <sequence>106</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_state = NRW</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890618</millis>
+  <sequence>107</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_zip = 44369</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890625</millis>
+  <sequence>108</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_country = Germany</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890631</millis>
+  <sequence>109</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) fetched_CID = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890637</millis>
+  <sequence>110</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) fetched_ORDERID = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890638</millis>
+  <sequence>111</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_productName = Playstation4</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890638</millis>
+  <sequence>112</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_cost = 400</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890638</millis>
+  <sequence>113</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_tracking_ID = ID-0-11</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890639</millis>
+  <sequence>114</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Res_Post_Customer = sendRequest(findTestObject(\&amp;quot;POSTDataDrivenCustomer\&amp;quot;, [\&amp;quot;firstName\&amp;quot;:tc_fName, \&amp;quot;lastName\&amp;quot;:tc_lName, \&amp;quot;phone\&amp;quot;:tc_phone, \&amp;quot;email\&amp;quot;:tc_email, \&amp;quot;address\&amp;quot;:tc_address, \&amp;quot;city\&amp;quot;:tc_city, \&amp;quot;state\&amp;quot;:tc_state, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890679</millis>
+  <sequence>118</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Reports\\RequestChaining_DataDriven\\20190605_125126\\requests\\main\\5.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">0a6e46af-20cc-415d-95b6-822a95289f77</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890680</millis>
+  <sequence>119</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890681</millis>
+  <sequence>120</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Res_Post_Customer = sendRequest(findTestObject(\&amp;quot;POSTDataDrivenCustomer\&amp;quot;, [\&amp;quot;firstName\&amp;quot;:tc_fName, \&amp;quot;lastName\&amp;quot;:tc_lName, \&amp;quot;phone\&amp;quot;:tc_phone, \&amp;quot;email\&amp;quot;:tc_email, \&amp;quot;address\&amp;quot;:tc_address, \&amp;quot;city\&amp;quot;:tc_city, \&amp;quot;state\&amp;quot;:tc_state, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890681</millis>
+  <sequence>121</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : jsonS = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890681</millis>
+  <sequence>122</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : jsonS = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890681</millis>
+  <sequence>123</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : jsonResponse = jsonS.parseText(Res_Post_Customer.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890682</millis>
+  <sequence>124</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : jsonResponse = jsonS.parseText(Res_Post_Customer.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890682</millis>
+  <sequence>125</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(customerID)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890688</millis>
+  <sequence>126</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(customerID)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890689</millis>
+  <sequence>127</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : fetched_CID = customerID</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890690</millis>
+  <sequence>128</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : fetched_CID = customerID</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890690</millis>
+  <sequence>129</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(fetched_CID)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890691</millis>
+  <sequence>130</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(fetched_CID)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890691</millis>
+  <sequence>131</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Res_Get_Customer = sendRequest(findTestObject(\&amp;quot;GetCustomerDynamicID\&amp;quot;, [\&amp;quot;customerID\&amp;quot;:fetched_CID, \&amp;quot;endpoint\&amp;quot;:endpoint]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890700</millis>
+  <sequence>134</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Reports\\RequestChaining_DataDriven\\20190605_125126\\requests\\main\\6.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">3d8106d6-0399-4944-a729-f09e07e80b64</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890702</millis>
+  <sequence>135</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890702</millis>
+  <sequence>136</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Res_Get_Customer = sendRequest(findTestObject(\&amp;quot;GetCustomerDynamicID\&amp;quot;, [\&amp;quot;customerID\&amp;quot;:fetched_CID, \&amp;quot;endpoint\&amp;quot;:endpoint]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890702</millis>
+  <sequence>137</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPropertyValue(Res_Get_Customer, \&amp;quot;customerID\&amp;quot;, fetched_CID)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890725</millis>
+  <sequence>141</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to verify element property value (Root cause: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object\n\nThe current character read is &amp;apos;&amp;lt;&amp;apos; with an int value of 60\nUnable to determine the current character, it is not a string, number, array, or object\nline number 1\nindex number 0\n&amp;lt;html&amp;gt;\n^\r\n\tat Script1.run(Script1.groovy:1)\r\n\tat com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.parseAndGetPropertyValueForJson(WebServiceCommonHelper.java:159)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:52)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)\r\n\tat TC_014_Request_Chaining_Complex.run(TC_014_Request_Chaining_Complex:34)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1559731886317.run(TempTestSuite1559731886317.groovy:35)\r\n)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">groovy.json.JsonException</property>
+  <property name="failed.exception.stacktrace">groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object\n\nThe current character read is &apos;&lt;&apos; with an int value of 60\nUnable to determine the current character, it is not a string, number, array, or object\nline number 1\nindex number 0\n&lt;html&gt;\n^\r\n\tat Script1.run(Script1.groovy:1)\r\n\tat com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.parseAndGetPropertyValueForJson(WebServiceCommonHelper.java:159)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:52)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)\r\n\tat TC_014_Request_Chaining_Complex.run(TC_014_Request_Chaining_Complex:34)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1559731886317.run(TempTestSuite1559731886317.groovy:35)\r\n</property>
+  <property name="failed.exception.message">Unable to determine the current character, it is not a string, number, array, or object\n\nThe current character read is &apos;&lt;&apos; with an int value of 60\nUnable to determine the current character, it is not a string, number, array, or object\nline number 1\nindex number 0\n&lt;html&gt;\n^</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890726</millis>
+  <sequence>142</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPropertyValue(Res_Get_Customer, \&amp;quot;customerID\&amp;quot;, fetched_CID)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890727</millis>
+  <sequence>145</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC_014_Request_Chaining_Complex FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object\n\nThe current character read is &amp;apos;&amp;lt;&amp;apos; with an int value of 60\nUnable to determine the current character, it is not a string, number, array, or object\nline number 1\nindex number 0\n&amp;lt;html&amp;gt;\n^\r\n\tat Script1.run(Script1.groovy:1)\r\n\tat com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.parseAndGetPropertyValueForJson(WebServiceCommonHelper.java:159)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:52)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)\r\n\tat TC_014_Request_Chaining_Complex.run(TC_014_Request_Chaining_Complex:34)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1559731886317.run(TempTestSuite1559731886317.groovy:35)\r\n)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)\r\n\tat TC_014_Request_Chaining_Complex.run(TC_014_Request_Chaining_Complex:34)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1559731886317.run(TempTestSuite1559731886317.groovy:35)\r\nCaused by: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object\n\nThe current character read is &amp;apos;&amp;lt;&amp;apos; with an int value of 60\nUnable to determine the current character, it is not a string, number, array, or object\nline number 1\nindex number 0\n&amp;lt;html&amp;gt;\n^\r\n\tat Script1.run(Script1.groovy:1)\r\n\tat com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.parseAndGetPropertyValueForJson(WebServiceCommonHelper.java:159)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:52)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\t... 20 more\r\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is '&lt;' with an int value of 60
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+&lt;html&gt;
+^
+	at Script1.run(Script1.groovy:1)
+	at com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.parseAndGetPropertyValueForJson(WebServiceCommonHelper.java:159)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at TC_014_Request_Chaining_Complex.run(TC_014_Request_Chaining_Complex:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559731886317.run(TempTestSuite1559731886317.groovy:35)
+)</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>50</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword</class>
+      <method>verifyElementPropertyValue</method>
+      <line>48</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword</class>
+      <method>execute</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>56</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords</class>
+      <method>verifyElementPropertyValue</method>
+      <line>123</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TC_014_Request_Chaining_Complex</class>
+      <method>run</method>
+      <line>34</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>133</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>116</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1559731886317</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object\n\nThe current character read is &apos;&lt;&apos; with an int value of 60\nUnable to determine the current character, it is not a string, number, array, or object\nline number 1\nindex number 0\n&lt;html&gt;\n^\r\n\tat Script1.run(Script1.groovy:1)\r\n\tat com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.parseAndGetPropertyValueForJson(WebServiceCommonHelper.java:159)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:52)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)\r\n\tat TC_014_Request_Chaining_Complex.run(TC_014_Request_Chaining_Complex:34)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1559731886317.run(TempTestSuite1559731886317.groovy:35)\r\n</property>
+  <property name="failed.exception.class">groovy.json.JsonException</property>
+  <property name="failed.exception.message">Unable to determine the current character, it is not a string, number, array, or object\n\nThe current character read is &apos;&lt;&apos; with an int value of 60\nUnable to determine the current character, it is not a string, number, array, or object\nline number 1\nindex number 0\n&lt;html&gt;\n^</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890730</millis>
+  <sequence>147</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC_014_Request_Chaining_Complex</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890732</millis>
+  <sequence>148</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC_014_Request_Chaining_Complex</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC_014_Request_Chaining_Complex</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TC_014_Request_Chaining_Complex</property>
+  <property name="source">C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Test Cases\\TC_014_Request_Chaining_Complex.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890747</millis>
+  <sequence>150</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_fName = heinz</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890755</millis>
+  <sequence>151</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_lName = stimpel</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890761</millis>
+  <sequence>152</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_phone = 2051</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890768</millis>
+  <sequence>153</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_email = stimpel51@ais.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890775</millis>
+  <sequence>154</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_address = karlsweg3</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890784</millis>
+  <sequence>155</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_city = luenen</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890791</millis>
+  <sequence>156</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_state = NRW</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890798</millis>
+  <sequence>157</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_zip = 44369</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890805</millis>
+  <sequence>158</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) tc_country = Germany</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890812</millis>
+  <sequence>159</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) fetched_CID = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890820</millis>
+  <sequence>160</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) fetched_ORDERID = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890820</millis>
+  <sequence>161</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_productName = Fifa2019</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890820</millis>
+  <sequence>162</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_cost = 50</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890820</millis>
+  <sequence>163</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>tc_tracking_ID = ID-0-12</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890822</millis>
+  <sequence>164</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Res_Post_Customer = sendRequest(findTestObject(\&amp;quot;POSTDataDrivenCustomer\&amp;quot;, [\&amp;quot;firstName\&amp;quot;:tc_fName, \&amp;quot;lastName\&amp;quot;:tc_lName, \&amp;quot;phone\&amp;quot;:tc_phone, \&amp;quot;email\&amp;quot;:tc_email, \&amp;quot;address\&amp;quot;:tc_address, \&amp;quot;city\&amp;quot;:tc_city, \&amp;quot;state\&amp;quot;:tc_state, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890862</millis>
+  <sequence>168</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Reports\\RequestChaining_DataDriven\\20190605_125126\\requests\\main\\7.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">3543d0df-e453-4a40-8436-e77da267c60b</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890864</millis>
+  <sequence>169</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890864</millis>
+  <sequence>170</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Res_Post_Customer = sendRequest(findTestObject(\&amp;quot;POSTDataDrivenCustomer\&amp;quot;, [\&amp;quot;firstName\&amp;quot;:tc_fName, \&amp;quot;lastName\&amp;quot;:tc_lName, \&amp;quot;phone\&amp;quot;:tc_phone, \&amp;quot;email\&amp;quot;:tc_email, \&amp;quot;address\&amp;quot;:tc_address, \&amp;quot;city\&amp;quot;:tc_city, \&amp;quot;state\&amp;quot;:tc_state, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890864</millis>
+  <sequence>171</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : jsonS = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890864</millis>
+  <sequence>172</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : jsonS = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890864</millis>
+  <sequence>173</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : jsonResponse = jsonS.parseText(Res_Post_Customer.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890865</millis>
+  <sequence>174</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : jsonResponse = jsonS.parseText(Res_Post_Customer.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890865</millis>
+  <sequence>175</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(customerID)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890865</millis>
+  <sequence>176</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(customerID)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890865</millis>
+  <sequence>177</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : fetched_CID = customerID</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890865</millis>
+  <sequence>178</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : fetched_CID = customerID</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890866</millis>
+  <sequence>179</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(fetched_CID)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890866</millis>
+  <sequence>180</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(fetched_CID)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890866</millis>
+  <sequence>181</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Res_Get_Customer = sendRequest(findTestObject(\&amp;quot;GetCustomerDynamicID\&amp;quot;, [\&amp;quot;customerID\&amp;quot;:fetched_CID, \&amp;quot;endpoint\&amp;quot;:endpoint]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890875</millis>
+  <sequence>184</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\matthias.meier\\Katalon Studio\\RestTesting_CustomerAPI\\Reports\\RequestChaining_DataDriven\\20190605_125126\\requests\\main\\8.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">f16bf579-6813-4dda-a678-741399b477f9</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890877</millis>
+  <sequence>185</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890877</millis>
+  <sequence>186</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Res_Get_Customer = sendRequest(findTestObject(\&amp;quot;GetCustomerDynamicID\&amp;quot;, [\&amp;quot;customerID\&amp;quot;:fetched_CID, \&amp;quot;endpoint\&amp;quot;:endpoint]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890877</millis>
+  <sequence>187</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPropertyValue(Res_Get_Customer, \&amp;quot;customerID\&amp;quot;, fetched_CID)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890891</millis>
+  <sequence>191</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to verify element property value (Root cause: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object\n\nThe current character read is &amp;apos;&amp;lt;&amp;apos; with an int value of 60\nUnable to determine the current character, it is not a string, number, array, or object\nline number 1\nindex number 0\n&amp;lt;html&amp;gt;\n^\r\n\tat Script1.run(Script1.groovy:1)\r\n\tat com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.parseAndGetPropertyValueForJson(WebServiceCommonHelper.java:159)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:52)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)\r\n\tat TC_014_Request_Chaining_Complex.run(TC_014_Request_Chaining_Complex:34)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1559731886317.run(TempTestSuite1559731886317.groovy:35)\r\n)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">groovy.json.JsonException</property>
+  <property name="failed.exception.stacktrace">groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object\n\nThe current character read is &apos;&lt;&apos; with an int value of 60\nUnable to determine the current character, it is not a string, number, array, or object\nline number 1\nindex number 0\n&lt;html&gt;\n^\r\n\tat Script1.run(Script1.groovy:1)\r\n\tat com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.parseAndGetPropertyValueForJson(WebServiceCommonHelper.java:159)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:52)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)\r\n\tat TC_014_Request_Chaining_Complex.run(TC_014_Request_Chaining_Complex:34)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1559731886317.run(TempTestSuite1559731886317.groovy:35)\r\n</property>
+  <property name="failed.exception.message">Unable to determine the current character, it is not a string, number, array, or object\n\nThe current character read is &apos;&lt;&apos; with an int value of 60\nUnable to determine the current character, it is not a string, number, array, or object\nline number 1\nindex number 0\n&lt;html&gt;\n^</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890893</millis>
+  <sequence>192</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPropertyValue(Res_Get_Customer, \&amp;quot;customerID\&amp;quot;, fetched_CID)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890894</millis>
+  <sequence>195</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC_014_Request_Chaining_Complex FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object\n\nThe current character read is &amp;apos;&amp;lt;&amp;apos; with an int value of 60\nUnable to determine the current character, it is not a string, number, array, or object\nline number 1\nindex number 0\n&amp;lt;html&amp;gt;\n^\r\n\tat Script1.run(Script1.groovy:1)\r\n\tat com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.parseAndGetPropertyValueForJson(WebServiceCommonHelper.java:159)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:52)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)\r\n\tat TC_014_Request_Chaining_Complex.run(TC_014_Request_Chaining_Complex:34)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1559731886317.run(TempTestSuite1559731886317.groovy:35)\r\n)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)\r\n\tat TC_014_Request_Chaining_Complex.run(TC_014_Request_Chaining_Complex:34)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1559731886317.run(TempTestSuite1559731886317.groovy:35)\r\nCaused by: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object\n\nThe current character read is &amp;apos;&amp;lt;&amp;apos; with an int value of 60\nUnable to determine the current character, it is not a string, number, array, or object\nline number 1\nindex number 0\n&amp;lt;html&amp;gt;\n^\r\n\tat Script1.run(Script1.groovy:1)\r\n\tat com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.parseAndGetPropertyValueForJson(WebServiceCommonHelper.java:159)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:52)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\t... 19 more\r\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to verify element property value (Root cause: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is '&lt;' with an int value of 60
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+&lt;html&gt;
+^
+	at Script1.run(Script1.groovy:1)
+	at com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.parseAndGetPropertyValueForJson(WebServiceCommonHelper.java:159)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)
+	at TC_014_Request_Chaining_Complex.run(TC_014_Request_Chaining_Complex:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1559731886317.run(TempTestSuite1559731886317.groovy:35)
+)</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>50</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword</class>
+      <method>verifyElementPropertyValue</method>
+      <line>48</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword</class>
+      <method>execute</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>56</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords</class>
+      <method>verifyElementPropertyValue</method>
+      <line>123</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TC_014_Request_Chaining_Complex</class>
+      <method>run</method>
+      <line>34</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>133</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>116</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1559731886317</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object\n\nThe current character read is &apos;&lt;&apos; with an int value of 60\nUnable to determine the current character, it is not a string, number, array, or object\nline number 1\nindex number 0\n&lt;html&gt;\n^\r\n\tat Script1.run(Script1.groovy:1)\r\n\tat com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.parseAndGetPropertyValueForJson(WebServiceCommonHelper.java:159)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:52)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)\r\n\tat com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)\r\n\tat com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$0.call(Unknown Source)\r\n\tat TC_014_Request_Chaining_Complex.run(TC_014_Request_Chaining_Complex:34)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1559731886317.run(TempTestSuite1559731886317.groovy:35)\r\n</property>
+  <property name="failed.exception.class">groovy.json.JsonException</property>
+  <property name="failed.exception.message">Unable to determine the current character, it is not a string, number, array, or object\n\nThe current character read is &apos;&lt;&apos; with an int value of 60\nUnable to determine the current character, it is not a string, number, array, or object\nline number 1\nindex number 0\n&lt;html&gt;\n^</property>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890896</millis>
+  <sequence>197</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC_014_Request_Chaining_Complex</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-06-05T12:51:30</date>
+  <millis>1559731890929</millis>
+  <sequence>198</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/RequestChaining_DataDriven</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
